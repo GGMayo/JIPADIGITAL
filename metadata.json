@@ -1,0 +1,6 @@
+{
+  "name": "JIPA Digital - Sitios Web con IA y CRM Integrado",
+  "description": "Crea sitios web premium de JIPA Digital con agentes de IA autónomos que cualifican leads, automatizan agendamiento y analizan conversiones en un CRM integrado en tiempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

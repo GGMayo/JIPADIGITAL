@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@keyframes logo-shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shine {
+  background-size: 200% 100%;
+  animation: logo-shine 3s infinite linear;
+}
+
+@keyframes text-shine {
+  0% {
+    background-position: 150% 0;
+  }
+  100% {
+    background-position: -150% 0;
+  }
+}
+
+/* Beautiful holographic/metallic text shine classes */
+.text-shine-emerald {
+  background: linear-gradient(
+    to right,
+    #10B981 0%,
+    #10B981 35%,
+    #a7f3d0 50%,
+    #10B981 65%,
+    #10B981 100%
+  );
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-shine 5s infinite linear;
+}
+
+.text-shine-slate {
+  background: linear-gradient(
+    to right,
+    #0f172a 0%,
+    #0f172a 35%,
+    #94a3b8 50%,
+    #0f172a 65%,
+    #0f172a 100%
+  );
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-shine 6s infinite linear;
+}
+
+.text-shine-steel {
+  background: linear-gradient(
+    to right,
+    #4A82BF 0%,
+    #4A82BF 35%,
+    #dbeafe 50%,
+    #4A82BF 65%,
+    #4A82BF 100%
+  );
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-shine 5.5s infinite linear;
+}
+
+.text-shine-white {
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 35%,
+    #a7f3d0 50%,
+    #ffffff 65%,
+    #ffffff 100%
+  );
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-shine 4.5s infinite linear;
+}
